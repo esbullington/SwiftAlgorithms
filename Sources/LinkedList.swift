@@ -13,9 +13,11 @@ extension List {
 }
 
 extension List {
+
     init() {
         self = .End
     }
+
 	mutating func push(_ x: Element) {
 		self = self.cons(x)
 	}
