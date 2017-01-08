@@ -26,9 +26,6 @@ extension Tree {
 		if x > y {
 			return right.contains(x)
 		}
-		if x == y {
-            return true
-        }
         return true
 	}
 }
