@@ -34,9 +34,9 @@ class LinkedListTests: XCTestCase {
         for elem in stack {
             someInts.append(elem)
         }
-        XCTAssertEqual(someInts[0], 3)
+        XCTAssertEqual(someInts[0], 1)
         XCTAssertEqual(someInts[1], 2)
-        XCTAssertEqual(someInts[2], 1)
+        XCTAssertEqual(someInts[2], 3)
     }
 
     static var allTests : [(String, (LinkedListTests) -> () throws -> Void)] {

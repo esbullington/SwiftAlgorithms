@@ -3,4 +3,5 @@ import XCTest
 
 XCTMain([
      testCase(SwiftAlgorithmsTests.LinkedListTests.allTests),
+     testCase(SwiftAlgorithmsTests.BinarySearchTreeTests.allTests),
 ])
